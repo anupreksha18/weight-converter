@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    
+  
+    align-items: center;
+     flex-direction: column;
+}
+.container{
+    display: flex;
+    
+  
+   align-items: center;
+    flex-direction: column;
+    
+}
+h1{
+    text-align: center; 
+    margin-top: 100px;
+   
+}
+#input{
+    text-align: center;
+    margin-bottom: 15px;
+  height: 50px;
+  width:1000px;
+   box-sizing: border-box;
+
+
+             /* Same width as the cards */
+  max-width: 400px;
+   
+}
+.card1, .card2, .card3{
+    display: block ;
+    padding: 0.3em 7em;
+    align-items: center;
+    text-align: center;    /* Center the text inside the cards */
+    margin-bottom: 20px;   /* Space between cards */
+    border-radius: 8px;    
+    width: 80%; /* Set cards width to 80% of the container */
+    max-width: 400px;
+    color: white;
+  
+visibility: hidden
+;
+    
+    padding: 0.3em 7em;
+}
+ .card1{
+    
+    background-color: blue;
+   
+}
+
+.card2{
+    background-color: green;
+    
+}
+
+.card3{
+    background-color: red;
+}
